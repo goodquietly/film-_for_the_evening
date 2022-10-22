@@ -1,9 +1,6 @@
-# frozen_string_literal: true
-
 require 'addressable/uri'
 require 'nokogiri'
 require 'open-uri'
-require 'pry'
 
 module FilmParser
   extend self

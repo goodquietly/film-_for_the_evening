@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 class FilmCollection
   def initialize(films)
     @films = films
@@ -16,6 +14,6 @@ class FilmCollection
   def film_for_the_evening(choice)
     @films.select do |film|
       film.producer == uniq_produsers_sort_by_name[choice - 1]
-    end .sample.to_s
+    end.sample.to_s
   end
 end
