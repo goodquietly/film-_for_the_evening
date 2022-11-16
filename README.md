@@ -20,7 +20,7 @@ gem install bundler
 git clone https://github.com/goodquietly/film_for_the_evening.git
 ````
 
-Находясь в папке с игрой `cd film_for_the_evening`, установите бибилиотеки:
+Находясь в папке с игрой `cd film_for_the_evening`, установите библиотеки:
 
 ```
 bundle install
